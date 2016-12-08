@@ -1,0 +1,57 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(footer.css);
+html,
+body {
+  height: 100%;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  background: #f6f9f9;
+}
+.wrap__inner, .content {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 1600px;
+  min-height: 100px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+.wrap__footer {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.content {
+  max-width: 1170px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 1600px) {
+  .wrap__inner, .content {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

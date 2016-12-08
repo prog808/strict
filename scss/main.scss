@@ -1,0 +1,42 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(footer.css);
+html,
+body {
+  height: 100%;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    background: #f6f9f9;
+    &__inner {
+        border: 1px solid black;
+        margin: 0 auto;
+        width: 1600px;
+        min-height: 100px;
+        flex: 1 0 auto;
+    }
+    &__footer {
+        flex: 0 0 auto;
+    }
+}
+
+.content {
+    @extend .wrap__inner;
+    max-width: 1170px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 1600px)  {
+    .wrap__inner {
+        width: 100%;
+    }
+}

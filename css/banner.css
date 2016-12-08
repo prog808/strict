@@ -1,0 +1,26 @@
+.banner {
+  width: 100%;
+  background: url(../img/Image.jpg) no-repeat;
+}
+.banner__content {
+  width: 1170px;
+  height: 800px;
+}
+.banner__h1 {
+  font-size: 7.5em;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media screen and (max-width: 1170px) {
+  .banner {
+    max-height: 800px;
+    background-size: 100%, 100%;
+  }
+  .banner__h1 {
+    font-size: 5em;
+  }
+}
+
+/*# sourceMappingURL=banner.css.map */
