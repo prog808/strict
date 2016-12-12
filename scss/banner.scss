@@ -5,11 +5,46 @@
         width: 1170px;
         height: 800px;
     }
-    &__h1 {
-        font-size: 7.5em;
-        color: #fff;
-        text-transform: uppercase;
+    &__text {
+        display: block;
+        margin: 0 auto;
+        color: #ffffff;
+        font-size: 1.25em;
+        font-weight: 400;
+        width: 600px;
         text-align: center;
+        letter-spacing: .39px;
+    }
+    &__title {
+        @extend .banner__text;
+        padding: 192px 0 15px 0;
+        border-bottom: 2px solid #15a4fa;
+        font-size: 7.28em;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 35px;
+        letter-spacing: 4px;
+    }
+    &__btn {
+        @extend .banner__text;
+        font-size: 1.125em;
+        border-radius: 2px;
+        border: 1px solid #15a4fa;
+        background-color: rgba(21, 164, 250, 0);
+        width: 178px;
+        height: 56px;
+        margin-top: 63px;
+    }
+    &__btn-down {
+        @extend .banner__text;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 1.1em;
+        font-weight: 400;
+        margin-top: 176px;
     }
 }
 
