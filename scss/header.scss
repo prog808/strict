@@ -1,3 +1,24 @@
 .header {
     height: 99px;
+   &__logo {
+      padding: 32px 0 0 37px;
+   }
+}
+
+.logo {
+   position: relative;
+   display: inline-block;
+   &__text {
+      position: absolute;
+      display: inline-block;
+      text-transform: uppercase;
+      font-family: "Lato";
+      color:  #2d3950;
+      font-size: 30px;
+      font-weight: 700;
+      top: 33px;
+      left: 87px;
+      letter-spacing: 1px;
+
+   }  
 }
