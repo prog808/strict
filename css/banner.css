@@ -1,6 +1,7 @@
 .banner {
   width: 100%;
   background: url(../img/Image.jpg) no-repeat;
+  background-size: cover;
 }
 .banner__content {
   width: 1170px;
@@ -8,6 +9,8 @@
 }
 .banner__text, .banner__title, .banner__btn, .banner__btn-down {
   display: block;
+  position: relative;
+  top: 192px;
   margin: 0 auto;
   color: #ffffff;
   font-size: 1.25em;
@@ -17,7 +20,8 @@
   letter-spacing: .39px;
 }
 .banner__title {
-  padding: 192px 0 15px 0;
+  padding: 0 0 15px 0;
+  top: 192px;
   border-bottom: 2px solid #15a4fa;
   font-size: 7.28em;
   text-transform: uppercase;
@@ -26,15 +30,16 @@
   letter-spacing: 4px;
 }
 .banner__btn {
+  top: 255px;
   font-size: 1.125em;
   border-radius: 2px;
   border: 1px solid #15a4fa;
   background-color: rgba(21, 164, 250, 0);
   width: 178px;
   height: 56px;
-  margin-top: 63px;
 }
 .banner__btn-down {
+  top: 431px;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -42,7 +47,6 @@
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.1em;
   font-weight: 400;
-  margin-top: 176px;
 }
 
 @media screen and (max-width: 1170px) {
@@ -54,5 +58,3 @@
     font-size: 5em;
   }
 }
-
-/*# sourceMappingURL=banner.css.map */

@@ -1,0 +1,20 @@
+.article {
+    height: 340px;
+    max-width: 1110px;
+    margin: 0 auto;
+    &__title {
+        position: relative;
+        top: 72px;
+        font-size: 2.5em;
+        text-align: center;
+        letter-spacing: .9px;
+    }
+    &__text {
+        @extend .article__title;
+        font-size: 1.25em;
+        font-weight: 400;
+        top: 92px;
+        letter-spacing: .4px;
+        line-height: 1.6;
+    }
+}

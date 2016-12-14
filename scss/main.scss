@@ -1,5 +1,7 @@
 @import url(header.css);
 @import url(banner.css);
+@import url(article.css);
+@import url(feature.css);
 @import url(footer.css);
 html,
 body {
@@ -9,12 +11,10 @@ body {
 .wrap {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
     background: #f6f9f9;
     &__inner {
         margin: 0 auto;
-        width: 1600px;
+        width: 100%;
         min-height: 100px;
         flex: 1 0 auto;
     }
@@ -27,13 +27,15 @@ body {
     cursor: pointer;
 }
 
+.title {
+    color: #2d3950;
+}
+
+.text {
+    color: #999;
+}
+
 .content {
     @extend .wrap__inner;
     max-width: 1170px;
-}
-
-@media screen and (max-width: 1600px)  {
-    .wrap__inner {
-        width: 100%;
-    }
 }

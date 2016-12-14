@@ -1,25 +1,15 @@
-.header {
-  height: 99px;
-}
-.header__logo {
-  padding: 32px 0 0 37px;
-}
-
-.logo {
+.logo__img, .logo__text {
   position: relative;
-  display: inline-block;
+  top: 32px;
+  left: 37px;
 }
 .logo__text {
-  position: absolute;
-  display: inline-block;
+  top: 25px;
+  left: 50px;
   text-transform: uppercase;
   font-family: "Lato";
   color: #2d3950;
   font-size: 30px;
   font-weight: 700;
-  top: 33px;
-  left: 87px;
   letter-spacing: 1px;
 }
-
-/*# sourceMappingURL=header.css.map */
