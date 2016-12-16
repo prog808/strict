@@ -1,17 +1,15 @@
 .feature {
-  background: #fff;
-  height: 340px;
-}
-.feature__content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
-  position: relative;
-  top: 64px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #fff;
+  height: 340px;
+  padding: 64px 245px;
 }
 .feature__block {
   max-width: 314px;
