@@ -52,18 +52,3 @@
     }
 }
 
-@media screen and (max-width: 1600px) {
-    .banner {
-        
-    }
-}
-
-@media screen and (max-width: 1170px)  {
-    .banner {
-        max-height: 800px;
-        background-size: 100%, 100%;
-        &__h1 {
-            font-size: 5em;
-        }
-    }
-}

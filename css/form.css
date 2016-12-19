@@ -1,0 +1,110 @@
+.form {
+  min-height: 700px;
+  width: 100%;
+  background: url(../img/Form.jpg) no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.form__bg {
+  background-color: rgba(45, 57, 80, 0.9);
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.form__text, .form__title {
+  color: #999999;
+  font-size: 0.938em;
+  font-weight: 400;
+  line-height: 1.533;
+  text-align: center;
+  margin: 0 auto;
+  width: 555px;
+}
+.form__title {
+  color: #ffffff;
+  font-size: 2.563em;
+  text-align: center;
+  position: relative;
+  top: -14px;
+}
+.form__inputs {
+  margin: 26px auto;
+}
+.form__name, .form__email, .form__message {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  border-radius: 2px;
+  border: 1px solid #999;
+  background-color: rgba(246, 249, 249, 0);
+  width: 555px;
+  height: 62px;
+  margin: 23px 0;
+  padding: 0 0 0 14px;
+}
+.form__message {
+  height: 162px;
+  resize: none;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+.form__check-btn {
+  width: 555px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form__checkbox-block {
+  padding: 15px 0;
+}
+.form__checkbox {
+  display: inline-block;
+  border-radius: 2px;
+  border: 1px solid #9aa1ab;
+  background-color: rgba(246, 249, 249, 0.54);
+  width: 18px;
+  height: 18px;
+  margin: 1px 10px 0 0;
+}
+.form__check-text {
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  color: #fff;
+  font-size: 0.938em;
+  font-weight: 400;
+}
+.form__submit {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 2px;
+  border: 1px solid #15a4fa;
+  background-color: rgba(21, 164, 250, 0);
+  width: 142px;
+  height: 47px;
+}
+.form__submit:hover {
+  background: #15a4fa;
+}
