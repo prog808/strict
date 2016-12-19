@@ -1,6 +1,6 @@
 .portfolio {
-    padding: 70px 225px;
-    min-height: 900px;
+    width: 69.643vw;
+    margin: 68px auto 86px;
     &__title {
         color:  #2d3950;
         font-size: 2.563em;
@@ -17,11 +17,13 @@
     }
     &__block-imgs {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-top: 27px;
+        flex-wrap: wrap;
     }
     &__item {
         position: relative;
+        margin: 0 15px 27px;
         &:hover .hover {
             opacity: 1;
         }

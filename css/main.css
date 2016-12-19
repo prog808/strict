@@ -25,7 +25,7 @@ body {
 }
 .wrap__inner, .content {
   margin: 0 auto;
-  width: 1600px;
+  width: 100%;
   min-height: 100px;
   -webkit-box-flex: 1;
   -webkit-flex: 1 0 auto;

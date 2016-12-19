@@ -1,9 +1,14 @@
 .feature {
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
     background:  #fff;
-    height: 340px;
-    padding: 64px 245px;
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        height: 340px;
+        padding: 64px 0;
+        max-width: 1170px;
+        margin: 0 auto;
+    }
     &__block {
         max-width: 314px;
     }

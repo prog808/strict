@@ -1,4 +1,8 @@
 .feature {
+  width: 100%;
+  background: #fff;
+}
+.feature__box {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -7,9 +11,10 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: #fff;
   height: 340px;
-  padding: 64px 245px;
+  padding: 64px 0;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 .feature__block {
   max-width: 314px;

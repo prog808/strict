@@ -1,3 +1,32 @@
 .footer {
     height: 90px;
+    padding-top: 25px;
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+    &__copy {
+        color:  #999999;
+        font-size: 0.938em;
+        font-weight: 400;
+        margin: 10px 0 0 15px;
+        letter-spacing: .4px;
+    }
+    &__socials {
+        margin-right: 15px;
+    }
+    &__link {
+        margin-left: 2px;
+        display: inline-block;
+        border-radius: 2px;
+        background-color:  #15a4fa;
+        width: 40px;
+        height: 40px;
+    }
+    &__icon {
+        color: #fff;
+        padding: 10px 0 0 13px;
+    }
 }

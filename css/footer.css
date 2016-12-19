@@ -1,3 +1,38 @@
 .footer {
   height: 90px;
+  padding-top: 25px;
+}
+.footer__box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.footer__copy {
+  color: #999999;
+  font-size: 0.938em;
+  font-weight: 400;
+  margin: 10px 0 0 15px;
+  letter-spacing: .4px;
+}
+.footer__socials {
+  margin-right: 15px;
+}
+.footer__link {
+  margin-left: 2px;
+  display: inline-block;
+  border-radius: 2px;
+  background-color: #15a4fa;
+  width: 40px;
+  height: 40px;
+}
+.footer__icon {
+  color: #fff;
+  padding: 10px 0 0 13px;
 }

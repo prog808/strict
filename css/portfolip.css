@@ -1,6 +1,6 @@
 .portfolio {
-  padding: 70px 225px;
-  min-height: 900px;
+  width: 69.643vw;
+  margin: 68px auto 86px;
 }
 .portfolio__title {
   color: #2d3950;
@@ -21,14 +21,17 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
   margin-top: 27px;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 .portfolio__item {
   position: relative;
+  margin: 0 15px 27px;
 }
 .portfolio__item:hover .hover {
   opacity: 1;
