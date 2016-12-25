@@ -18,7 +18,6 @@
         line-height: 1.533;
         text-align: center;
         margin: 0 auto;
-        width: 555px;
     }
     &__title {
         @extend .form__text;
@@ -30,6 +29,7 @@
     }
     &__inputs {
         margin: 26px auto;
+        width: 555px;
     }
     &__name {
         display: block;
@@ -38,7 +38,7 @@
         border-radius: 2px;
         border: 1px solid #999;
         background-color: rgba(246, 249, 249, 0);
-        width: 555px;
+        width: 100%;
         height: 62px;
         margin: 23px 0;
         padding: 0 0 0 14px;
@@ -54,7 +54,7 @@
         padding-bottom: 26px;
     }
     &__check-btn {
-        width: 555px;
+        width: 100%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;

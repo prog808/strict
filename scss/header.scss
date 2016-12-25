@@ -1,11 +1,12 @@
-.logo {
-    &__img {
+.header {
+    height: 99px;
+    &__logo {
         position: relative;
         top: 32px;
         left: 37px;
     }
     &__text {
-        @extend .logo__img;
+        @extend .header__logo;
         top: 25px;
         left: 50px;
         text-transform: uppercase;

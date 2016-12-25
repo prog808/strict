@@ -5,12 +5,11 @@
     &__content {
         width: 1170px;
         height: 800px;
+        border: 1px solid rgba(0, 0, 0, 0);
     }
     &__text {
         display: block;
-        position: relative;
-        top: 192px;
-        margin: 0 auto;
+        margin: 35px auto 0;
         color: #ffffff;
         font-size: 1.25em;
         font-weight: 400;
@@ -20,18 +19,17 @@
     }
     &__title {
         @extend .banner__text;
+        margin-top: 192px;
         padding: 0 0 15px 0;
-        top: 192px;
         border-bottom: 2px solid #15a4fa;
         font-size: 7.28em;
         text-transform: uppercase;
         font-weight: 700;
-        margin-bottom: 35px;
         letter-spacing: 4px;
     }
     &__btn {
         @extend .banner__text;
-        top: 255px;
+        margin-top: 62px;
         font-size: 1.125em;
         border-radius: 2px;
         border: 1px solid #15a4fa;
@@ -41,7 +39,8 @@
     }
     &__btn-down {
         @extend .banner__text;
-        top: 431px;
+        position: relative;
+        bottom: -142px;
         font: normal normal normal 14px/1 FontAwesome;
         font-size: inherit;
         text-rendering: auto;

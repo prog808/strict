@@ -36,6 +36,9 @@
 .portfolio__item:hover .hover {
   opacity: 1;
 }
+.portfolio__img {
+  width: 100%;
+}
 
 .hover {
   display: -webkit-box;

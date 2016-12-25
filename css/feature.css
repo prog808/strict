@@ -11,13 +11,12 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 340px;
+  min-height: 340px;
   padding: 64px 0;
-  max-width: 1170px;
-  margin: 0 auto;
 }
 .feature__block {
   max-width: 314px;
+  margin: 0 5px;
 }
 .feature__icon-bg, .feature__icon-bg_left {
   position: relative;
@@ -37,28 +36,31 @@
   top: 10px;
   left: 35px;
   color: #fff;
-  font-size: 4.375em;
+  font-size: 70px;
   text-align: center;
   text-shadow: 0px 1px 1px rgba(2, 2, 2, 0.4);
 }
 .feature__icon_middle {
-  font-size: 2.5em;
+  font-size: 40px;
   top: 27px;
   left: 26px;
 }
 .feature__icon_last {
-  font-size: 2.625em;
+  font-size: 40px;
   top: 27px;
   left: 29px;
 }
 .feature__title, .feature__text {
-  position: relative;
-  top: 28px;
+  margin-top: 28px;
   text-align: center;
   font-size: 1.375em;
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
 }
 .feature__text {
-  top: 43px;
+  margin-top: 43px;
   font-size: 0.938em;
   line-height: 1.467;
 }

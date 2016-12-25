@@ -17,7 +17,6 @@ body {
     &__inner {
         margin: 0 auto;
         width: 100%;
-        min-height: 100px;
         flex: 1 0 auto;
     }
     &__footer {
@@ -37,7 +36,87 @@ body {
     color: #999;
 }
 
-.content {
-    @extend .wrap__inner;
-    max-width: 1170px;
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box-width {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+@media screen and (max-width:1680px) {
+    .portfolio {
+        width: 1170px;
+    }
+}
+
+@media screen and (max-width:1190px) {
+    .banner{
+        &__content {
+            height: 500px;
+        }
+        &__title {
+            margin-top: 70px;
+        }
+        &__btn-down {
+            bottom: 0;
+        }
+    }
+    .box-width,
+    .portfolio {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .wrap {
+        font-size: 14px;
+    }
+    .feature {
+        &__text {
+            padding: 0 10px;
+        }
+    }
+}
+
+@media screen and (max-width:690px) {
+    .wrap {
+        font-size: 12px;
+    }
+    .banner {
+        &__text {
+            width: 90%;
+        }
+        &__title {
+            @extend .banner__text;
+        }
+        &__btn-down {
+            @extend .banner__text;
+        }
+    }
+    .form {
+        &__inputs {
+            width: 90%;
+        }
+    }
+}
+@media screen and (max-width:460px) {
+    .wrap {
+        font-size: 9px;
+    }
+    .feature {
+        &__box {
+            flex-wrap: wrap;
+        }
+        &__block {
+            width: 90%;
+            margin: 10px auto;
+        }
+        &__text {
+            margin-top: 10px;
+        }
+    }
 }

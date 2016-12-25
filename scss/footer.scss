@@ -4,8 +4,6 @@
     &__box {
         display: flex;
         justify-content: space-between;
-        max-width: 1170px;
-        margin: 0 auto;
     }
     &__copy {
         color:  #999999;
@@ -27,6 +25,9 @@
     }
     &__icon {
         color: #fff;
-        padding: 10px 0 0 13px;
+        position: relative;
+        top: 10px;
+        left: 13px;
+        font-size: 15px;
     }
 }

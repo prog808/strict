@@ -1,7 +1,5 @@
 .article {
-  height: 340px;
-  width: 66.072vw;
-  margin: 0 auto;
+  min-height: 340px;
 }
 .article__title, .article__text {
   position: relative;
